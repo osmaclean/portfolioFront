@@ -4,11 +4,12 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.scss";
 import "./styles/index.css";
 import Home from "../src/views/Home/Home";
+import { WORKS_MOCK } from "../src/api/works.mock";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Home data={WORKS_MOCK} />,
   },
 ]);
 

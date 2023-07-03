@@ -6,12 +6,10 @@
 }
 
 body {
+  background: rgb(255, 255, 255);
   background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.53) 0%,
-    rgba(255, 255, 255, 0.74) 3.12%,
-    #fff 15.8%,
-    #bebebe 58.13%,
-    #fff 100%
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(190, 190, 190, 1) 100%
   );
 }

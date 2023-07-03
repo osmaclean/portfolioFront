@@ -12,8 +12,11 @@ export default {
         'header': 'rgba(255, 255, 255, 0.80)',
         'content': '#2e2e2e',
       },
-      shadow: {
-        'headerShadow': '0px 4px 4px 0px rgba(0, 0, 0, 0.10);',
+      boxShadow: {
+        'headerShadow': '0px 4px 4px 0px rgba(0, 0, 0, 0.10)',
+        'button': [
+          '0px 4px 4px 0px rgba(0, 0, 0, 0.25)',
+          '8px 16px 20px 0px rgba(0, 0, 0, 0.50) inset']
       },
       backgroundImage: {
         'react': "url('src/assets/imgs/light/react.svg')",
