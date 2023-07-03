@@ -21,6 +21,14 @@ export default function Hero() {
             <li className="bg-tailwind bg-cover bg-no-repeat w-8 h-8 invert opacity-90"></li>
           </ul>
         </div>
+        <div className="flex flex-col items-end justify-center pt-16 pr-0 pb-0">
+          <div className="flex flex-col items-center justify-center gap-4">
+            <h4 className="text-content text-xs font-bold">
+              Rolar para baixo{" "}
+            </h4>
+            <div className="bg-scroll bg-cover bg-no-repeat w-4 h-4 animate-bounce"></div>
+          </div>
+        </div>
       </div>
       <div className="w-1/2 bg-eagle bg-cover bg-no-repeat h-full opacity-20 bg-bottom"></div>
     </section>

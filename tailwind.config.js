@@ -25,6 +25,7 @@ export default {
         'figma': "url('src/assets/imgs/light/figma.svg')",
         'tailwind': "url('src/assets/imgs/light/tailwind-logo.svg')",
         'eagle': "url('src/assets/imgs/light/eagleBlack.png')",
+        'scroll': "url('src/assets/imgs/light/scroll.svg')",
       },
     },
   },
