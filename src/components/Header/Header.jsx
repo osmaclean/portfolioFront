@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <header className="h-14 w-full bg-header shadow-md p-6 flex items-center justify-center fixed top-0 z-50">
-      <nav className="flex items-center justify-between w-11/12">
+      <nav className="flex items-center justify-between w-3/4">
         <h1 className="text-2xl font-bold cursor-pointer text-content">
           LUCAS MACLEAN
         </h1>
