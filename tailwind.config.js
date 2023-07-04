@@ -4,6 +4,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'sm': { 'max': '585px' },
+      'md': { 'max': '768px' },
+    },
     fontFamily: {
       'default': ['Poppins', 'sans-serif'],
     },
