@@ -1,7 +1,7 @@
 import "./index.scss";
-import GitHub from "../../assets/imgs/light/placa-do-github.svg";
-import LinkedIn from "../../assets/imgs/light/logotipo-do-linkedin.svg";
-import Instagram from "../../assets/imgs/light/instagram.svg";
+import GitHub from "/light/placa-do-github.svg";
+import LinkedIn from "/light/logotipo-do-linkedin.svg";
+import Instagram from "/light/instagram.svg";
 
 export default function Footer() {
   return (

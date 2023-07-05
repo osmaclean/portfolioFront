@@ -1,5 +1,5 @@
 import "./index.scss";
-import Blank from "../../assets/imgs/light/blank.svg";
+import Blank from "/light/blank.svg";
 
 export default function Works({ data }) {
   return (
