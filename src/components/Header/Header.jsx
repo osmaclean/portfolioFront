@@ -7,13 +7,13 @@ export default function Header() {
         </h1>
         <ul className="flex items-center justify-center gap-6 sm:gap-4 text-sm text-content">
           <li className="cursor-pointer hover:opacity-50 ease-in-out duration-500 font-normal ">
-            Portfólio
+            <a href="#sectionWorks">Portfólio</a>
           </li>
           <li className="cursor-pointer hover:opacity-50 ease-in-out duration-500 font-normal">
-            Resumo
+            <a href="#section">Resumo</a>
           </li>
           <li className="cursor-pointer hover:opacity-50 ease-in-out duration-500 font-normal">
-            Fale comigo
+            <a href="#sectionFooter">Fale comigo</a>
           </li>
         </ul>
       </nav>
