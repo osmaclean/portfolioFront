@@ -5,11 +5,17 @@ export default {
   ],
   theme: {
     screens: {
-      'sm': { 'max': '585px' },
-      'md': { 'max': '768px' },
       'mdOne': { 'max': '1335px' },
       'md2nd': { 'max': '1275px' },
       'md-3': { 'max': '1190px' },
+      'md-4': { 'max': '1040px' },
+      'md-5': { 'max': '900px' },
+      'md-6': { 'max': '830px' },
+      'md': { 'max': '768px' },
+      'sm': { 'max': '585px' },
+      'sm-1': { 'max': '415px' },
+      'sm-2': { 'max': '370px' },
+      'sm-3': { 'max': '300px' },
     },
     fontFamily: {
       'default': ['Poppins', 'sans-serif'],
