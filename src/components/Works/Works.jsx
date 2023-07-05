@@ -3,11 +3,14 @@ import Blank from "../../assets/imgs/light/blank.svg";
 
 export default function Works({ data }) {
   return (
-    <div id="sectionWorks" className="w-full pt-8 pl-[11.25rem] mt-14">
+    <div
+      id="sectionWorks"
+      className="w-full pt-8 pl-[11.25rem] pr-[11.25rem] mt-20"
+    >
       <h1 className="text-content text-3xl mt-8 font-extrabold uppercase">
         Portfólio
       </h1>
-      <div className="w-[59.3rem] pt-12 pb-12 flex flex-wrap items-center justify-between gap-12">
+      <div className="w- pt-12 pb-12  flex flex-wrap items-center justify-between gap-12">
         {data.map((obj) => (
           <div
             key={obj.id}

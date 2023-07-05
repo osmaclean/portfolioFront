@@ -7,6 +7,9 @@ export default {
     screens: {
       'sm': { 'max': '585px' },
       'md': { 'max': '768px' },
+      'mdOne': { 'max': '1335px' },
+      'md2nd': { 'max': '1275px' },
+      'md-3': { 'max': '1190px' },
     },
     fontFamily: {
       'default': ['Poppins', 'sans-serif'],
