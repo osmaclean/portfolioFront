@@ -4,10 +4,10 @@ export default function Hero() {
   return (
     <section
       id="section"
-      className="mt-14 sm:mt-24 w-full pt-4 pl-[12.1rem] pr-[11.2rem] sm:pl-[2rem] sm:pr-[2rem] sm-1:pl-[1rem] sm-1:pr-[1rem] md:pl-[3.8rem] md:pr-[3.8rem] mdOne:pl-[11.5rem] md2nd:pl-[11rem] md-3:pl-[10rem] md-3:pr-[10rem] md-4:pl-[9rem] md-4:pr-[9rem] md-5:pl-[8rem] md-5:pr-[8rem]  flex flex-col items-center justify-center relative"
+      className="mt-14 sm:mt-16 w-full pt-4 pl-[12.1rem] pr-[11.2rem] sm:pl-[2rem] sm:pr-[2rem] sm-1:pl-[1rem] sm-1:pr-[1rem] md:pl-[3.8rem] md:pr-[3.8rem] mdOne:pl-[11.5rem] md2nd:pl-[11rem] md-3:pl-[10rem] md-3:pr-[10rem] md-4:pl-[9rem] md-4:pr-[9rem] md-5:pl-[8rem] md-5:pr-[8rem]  flex flex-col items-center justify-center relative"
     >
       <div className="flex w-full items-start justify-between">
-        <div className="w-1/2 h-full md-4:w-3/5">
+        <div className="w-1/2 h-full md-4:w-3/5 ">
           <p className="font-medium text-base sm:text-xs text-content w-2/3 mt-10 md2nd:w-3/4 md-3:w-5/6 md-4:w-full md-4:text-sm">
             Tenho 26 anos, desenvolvedor front-end com um ano de experiência
             trabalhando como freelancer
