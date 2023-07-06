@@ -35,7 +35,13 @@ export default function Works({ data }) {
               }}
               className="flex items-center justify-center hover:animate-pulse font-bold gap-2 p-4 uppercase shadow-button text-white bg-content rounded-md w-28 h-6"
             >
-              Projeto <img className="w-4 h-4" src={Blank} />
+              Projeto{" "}
+              <img
+                className="w-4 h-4"
+                src={Blank}
+                alt="Ver em outra página"
+                aria-label="Botão para ver o projeto"
+              />
             </button>
           </div>
         ))}
