@@ -18,7 +18,7 @@ export default function Works({ data }) {
           >
             <figure>
               <img
-                className="w-80 h-80"
+                className="w-80 h-80 md-3:h-72 md-5:h-64 sm-1:h-56"
                 src={obj.imgPathDetail}
                 alt={obj.title}
               />
