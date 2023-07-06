@@ -11,7 +11,7 @@ export default function Footer() {
     >
       <div className="w-3/4">
         <h1 className="text-content text-3xl font-bold md-3:text-2xl sm:text-xl">
-          Get in touch
+          Entre em contato
         </h1>
         <span className="mt-6 flex items-center justify-center hover:animate-pulse font-bold gap-2 p-4 uppercase shadow-button text-white bg-content rounded-md w-96 md-3:w-80 sm:w-64 sm:text-xs sm-2:w-56 sm-2:text-[.65rem] md-3:text-sm antialiased h-6">
           contatolucasmaclean@gmail.com

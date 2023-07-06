@@ -14,7 +14,7 @@ export default function Works({ data }) {
         {data.map((obj) => (
           <div
             key={obj.id}
-            className="w-96 md-3:w-72 md-5:w-64 sm:w-52 sm-1:w-44 flex flex-col items-center justify-center"
+            className="w-96 md-3:w-72 md-5:w-64 sm-1:w-56 flex flex-col items-center justify-center"
           >
             <figure>
               <img
@@ -35,7 +35,7 @@ export default function Works({ data }) {
               }}
               className="flex items-center justify-center hover:animate-pulse font-bold gap-2 p-4 uppercase shadow-button text-white bg-content rounded-md w-28 h-6"
             >
-              Project <img className="w-4 h-4" src={Blank} />
+              Projeto <img className="w-4 h-4" src={Blank} />
             </button>
           </div>
         ))}
