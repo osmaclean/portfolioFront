@@ -1,30 +1,30 @@
 export const WORKS_MOCK = [
   {
     id: 1,
-    imgPathDetail: '/project-1.svg',
+    imgPathDetail: '/project-1.png',
     title: 'E-commerce DNC',
-    description: 'Project created for the development of an e-commerce.',
+    description: 'Projeto criado para o desenvolvimento de um e-commerce.',
     link: 'https://e-commerce-dnc-black.vercel.app'
   },
   {
     id: 2,
-    imgPathDetail: '/project-2.svg',
+    imgPathDetail: '/project-2.png',
     title: 'WeatherDuo',
-    description: 'Project created for the development of a climate/weather application',
+    description: 'Projeto criado para o desenvolvimento de uma aplicação de clima/tempo',
     link: 'https://weather-duo.vercel.app'
   },
   {
     id: 3,
-    imgPathDetail: '/project-3.svg',
+    imgPathDetail: '/project-3.png',
     title: 'DNC Food',
-    description: 'Project created for the development of a food e-commerce application',
+    description: 'Projeto criado para o desenvolvimento de um restaurante',
     link: 'https://dnc-food-react.vercel.app'
   },
   {
     id: 4,
-    imgPathDetail: '/project-4.svg',
+    imgPathDetail: '/project-4.png',
     title: 'Dashboard',
-    description: 'Project created for the development of a dashboard for data analysis and sales.',
+    description: 'Projeto criado para o desenvolvimento de um dashboard para análise de dados e vendas.',
     link: 'https://dashboard-project-seven.vercel.app'
   },
 ]
