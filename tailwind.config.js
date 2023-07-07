@@ -5,6 +5,10 @@ export default {
   ],
   theme: {
     screens: {
+      'md-7': { 'min': '1500px' },
+      'md-8': { 'min': '1650px' },
+      'md-9': { 'min': '1800px' },
+      'l': { 'min': '1920px' },
       'mdOne': { 'max': '1335px' },
       'md2nd': { 'max': '1275px' },
       'md-3': { 'max': '1190px' },
