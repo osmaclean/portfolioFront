@@ -2,6 +2,7 @@ import "./index.scss";
 import GitHub from "/light/placa-do-github.svg";
 import LinkedIn from "/light/logotipo-do-linkedin.svg";
 import Instagram from "/light/instagram.svg";
+import Curriculo from "/light/curriculo.png";
 
 export default function Footer() {
   return (
@@ -21,6 +22,7 @@ export default function Footer() {
             <img
               src={GitHub}
               alt="Logotipo GitHub"
+              aria-label="GitHub Botão"
               className="cursor-pointer h-8 w-8 md-3:h-6 md-3:w-6 l:h-12 l:w-12 hover:opacity-60 transition-all"
               onClick={() => {
                 open("https://github.com/osmaclean");
@@ -31,6 +33,7 @@ export default function Footer() {
             <img
               src={LinkedIn}
               alt="Logotipo LinkedIn"
+              aria-label="LinkedIn Botão"
               className="cursor-pointer h-8 w-8 md-3:h-6 md-3:w-6 l:h-12 l:w-12 hover:opacity-60 transition-all"
               onClick={() => {
                 open("https://www.linkedin.com/in/osmaclean/");
@@ -41,9 +44,21 @@ export default function Footer() {
             <img
               src={Instagram}
               alt="Logotipo Instagram"
+              aria-label="Instagram Botão"
               className="cursor-pointer h-8 w-8 md-3:h-6 md-3:w-6 l:h-12 l:w-12 hover:opacity-60 transition-all"
               onClick={() => {
                 open("https://www.instagram.com/devstechbrasil/");
+              }}
+            />
+          </figure>
+          <figure>
+            <img
+              src={Curriculo}
+              alt="Logotipo Curriculo"
+              aria-label="Curriculo Botão"
+              className="cursor-pointer h-8 w-8 md-3:h-6 md-3:w-6 l:h-[2.25rem] l:w-12 hover:opacity-60 transition-all"
+              onClick={() => {
+                open("https://rebrand.ly/Curriculum-LM");
               }}
             />
           </figure>
