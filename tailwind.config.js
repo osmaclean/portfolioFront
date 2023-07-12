@@ -1,4 +1,5 @@
 export default {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -31,6 +32,10 @@ export default {
       colors: {
         'header': 'rgba(255, 255, 255, 0.80)',
         'content': '#2e2e2e',
+        'gradient1': 'rgba(255, 255, 255, 1)',
+        'gradient2': 'rgba(190, 190, 190, 1) ',
+        'gradient-dark1': '#2E2E2E',
+        'gradient-dark2': '#616161',
       },
       boxShadow: {
         'headerShadow': '0px 4px 4px 0px rgba(0, 0, 0, 0.10)',
@@ -49,6 +54,16 @@ export default {
         'tailwind': "url('/light/tailwind-logo.svg')",
         'eagle': "url('/light/eagleBlack.png')",
         'scroll': "url('/light/scroll.svg')",
+        'react-dark': "url('/dark/reactDark.png')",
+        'js-dark': "url('/dark/jsDark.png')",
+        'html-dark': "url('/dark/htmlDark.png')",
+        'css-dark': "url('/dark/cssDark.png')",
+        'sass-dark': "url('/dark/sassDark.png')",
+        'bootstrap-dark': "url('/dark/bootstrapDark.png')",
+        'figma-dark': "url('/dark/figmaDark.png')",
+        'tailwind-dark': "url('/dark/tailwindDark.png')",
+        'eagle-dark': "url('/dark/eagleWhite.png')",
+        'scroll-dark': "url('/dark/scrollDark.png')",
       },
     },
   },
