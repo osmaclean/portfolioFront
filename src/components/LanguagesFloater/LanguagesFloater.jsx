@@ -1,7 +1,7 @@
-import USA from "../../../public/light/usa.png";
-import MOON from "../../../public/light/moon.png";
-import SOL from "../../../public/dark/sol.png";
-import BR from "../../../public/light/br.png";
+import USA from "/light/usa.png";
+import MOON from "/light/moon.png";
+import SOL from "/dark/sol.png";
+import BR from "/light/br.png";
 import { useTheme } from "../../hooks/useTheme";
 
 export default function LanguagesFloater() {
