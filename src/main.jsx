@@ -5,11 +5,16 @@ import "./index.scss";
 import "./styles/index.css";
 import Home from "../src/views/Home/Home";
 import { WORKS_MOCK } from "../src/api/works.mock";
+import ThemeContextProvider from "./hooks/useTheme";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home data={WORKS_MOCK} />,
+    element: (
+      <ThemeContextProvider>
+        <Home data={WORKS_MOCK} />
+      </ThemeContextProvider>
+    ),
   },
 ]);
 
