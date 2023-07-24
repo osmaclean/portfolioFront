@@ -3,7 +3,7 @@ import Blank from "/light/blank.svg";
 import BlankDark from "/dark/blankDark.png";
 import { useTheme } from "../../hooks/useTheme";
 
-export default function Works({ data }) {
+export default function Works({ data, t }) {
   const { theme } = useTheme();
   return (
     <div
@@ -38,7 +38,7 @@ export default function Works({ data }) {
               }}
               className="flex items-center justify-center hover:animate-pulse font-bold gap-2 p-4 uppercase shadow-button text-white bg-content dark:text-content dark:bg-header rounded-md w-28 h-6 l:w-36 l:h-10 l:gap-3 l:p-5 l:text-lg l-3:text-[1.35rem] l-3:w-44 l-3:p-6"
             >
-              Projeto{" "}
+              {t("botao")}
               {theme === "light" ? (
                 <img
                   className="w-4 h-4 l:w-6 l:h-6 l-3:w-8 l-3:h-8"

@@ -4,8 +4,9 @@ import SOL from "/dark/sol.png";
 import BR from "/light/br.png";
 import { useTheme } from "../../hooks/useTheme";
 
-export default function LanguagesFloater() {
+export default function LanguagesFloater({ handleChangeLanguage }) {
   const { theme, setTheme } = useTheme();
+
   return (
     <section>
       <div className="fixed right-0 top-24 w-12 rounded-l-lg bg-content dark:bg-header h-28 l:w-20 flex flex-col items-center justify-center">
@@ -17,6 +18,7 @@ export default function LanguagesFloater() {
                 src={USA}
                 alt="Estados Unidos"
                 aria-label="Botão de traduzir para o inglês"
+                onClick={handleChangeLanguage}
               />
             </figure>
           </li>
@@ -27,6 +29,7 @@ export default function LanguagesFloater() {
                 src={BR}
                 alt="Brasil"
                 aria-label="Botão de traduzir para o português"
+                onClick={handleChangeLanguage}
               />
             </figure>
           </li>

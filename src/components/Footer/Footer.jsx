@@ -9,7 +9,7 @@ import LinkedInDark from "/dark/linkedinDark.png";
 import InstagramDark from "/dark/instaDark.png";
 import { useTheme } from "../../hooks/useTheme";
 
-export default function Footer() {
+export default function Footer({ t }) {
   const { theme } = useTheme();
   return (
     <section
@@ -18,7 +18,7 @@ export default function Footer() {
     >
       <div className="w-3/4">
         <h1 className="text-content dark:text-header text-3xl font-bold md-3:text-2xl sm:text-xl l:text-4xl l-3:text-5xl">
-          Entre em contato
+          {t("contatoRodape")}
         </h1>
         <span className="mt-6 flex items-center justify-center hover:animate-pulse font-bold gap-2 p-4 uppercase shadow-button text-white dark:text-content dark:bg-header bg-content rounded-md w-96 md-3:w-80 sm:w-64 sm:text-xs sm-2:w-56 sm-2:text-[.65rem] md-3:text-sm antialiased h-6 l:text-xl l:w-[28rem] l:h-10 l-3:text-[1.35rem] l-3:w-[30rem] l-3:h-12">
           contatolucasmaclean@gmail.com

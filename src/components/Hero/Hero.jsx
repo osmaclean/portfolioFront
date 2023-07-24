@@ -1,6 +1,6 @@
 import "./index.scss";
 
-export default function Hero() {
+export default function Hero({ t }) {
   return (
     <section
       id="section"
@@ -9,11 +9,10 @@ export default function Hero() {
       <div className="flex w-full items-start justify-between">
         <div className="w-1/2 h-full md-4:w-3/5 ">
           <p className="font-medium text-base sm:text-xs dark:text-header text-content w-2/3 mt-10 md2nd:w-3/4 md-3:w-5/6 md-4:w-full md-4:text-sm l:text-xl l-3:text-[1.35rem]">
-            Tenho 26 anos, desenvolvedor front-end com um ano de experiência
-            trabalhando como freelancer
+            {t("descricao")}
           </p>
           <h1 className="font-bold dark:text-header text-content text-7xl sm:text-[2.5rem] sm-2:text-[2rem] sm-3:text-[1.8rem] w-full mt-16 md2nd:text-6xl md-3:text-[3.2rem] md-4:mt-14 l:text-8xl l-3:text-9xl">
-            DESENVOLVEDOR REACT
+            {t("titulo")}
           </h1>
           <div className="w-full mt-4">
             <ul className="w-full h-20 flex flex-wrap items-center justify-start gap-8 md-3:gap-6 md-4:gap-4">
@@ -35,7 +34,7 @@ export default function Hero() {
       <div className="w-3/4 flex flex-col items-center justify-center md-6:mt-16 ">
         <div className="flex flex-col items-center justify-center gap-4">
           <h4 className="text-content text-xs font-bold l:text-base l-1:text-lg dark:text-header">
-            Rolar para baixo
+            {t("scroll")}
           </h4>
           <div className="bg-scroll dark:bg-scroll-dark bg-cover bg-no-repeat w-4 h-4 animate-bounce l:w-6 l:h-6 l-1:h-8 l-1:w-8"></div>
         </div>
