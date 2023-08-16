@@ -1,5 +1,4 @@
 import USA from "/light/usa.png";
-import BR from "/light/br.png";
 import MOON from "/light/moon.png";
 import SOL from "/dark/sol.png";
 import { useTheme } from "../../hooks/useTheme";

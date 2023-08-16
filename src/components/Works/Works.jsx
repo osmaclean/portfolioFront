@@ -30,7 +30,7 @@ export default function Works({ data, t }) {
               {obj.title}
             </h2>
             <span className="text-center text-content dark:text-header text-base mb-4 sm:text-sm l:text-xl l-3:text-[1.35rem] l-3:mb-6">
-              {obj.description}
+              {t(obj.description)}
             </span>
             <button
               onClick={() => {
