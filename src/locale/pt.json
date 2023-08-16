@@ -8,6 +8,10 @@
       "scroll": "Rolar para baixo",
       "whats": "Whatsapp",
       "contatoRodape": "Entre em contato",
-      "botao": "PROJETO"
+      "botao": "PROJETO",
+      "descricaoProjetoUm": "Projeto criado para o desenvolvimento de um e-commerce.",
+      "descricaoProjetoDois": "Projeto criado para o desenvolvimento de uma aplicação de clima/tempo",
+      "descricaoProjetoTres": "Projeto criado para o desenvolvimento de um restaurante",
+      "descricaoProjetoQuatro": "Projeto criado para o desenvolvimento de um dashboard para análise de dados e vendas."
   }
 }

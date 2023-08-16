@@ -8,6 +8,10 @@
       "scroll": "Scroll Down",
       "whats": "Whatsapp",
       "contatoRodape": "Get in touch",
-      "botao": "PROJECT"
+      "botao": "PROJECT",
+      "descricaoProjetoUm": "Project created for the development of an e-commerce.",
+      "descricaoProjetoDois": "Project created for the development of a climate/weather application",
+      "descricaoProjetoTres": "Project created for the development of a food e-commerce application",
+      "descricaoProjetoQuatro": "Project created for the development of a dashboard for data analysis and sales."
   }
 }

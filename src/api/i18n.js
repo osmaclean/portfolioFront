@@ -16,3 +16,5 @@ i18n.use(initReactI18next).init({
   lng: 'pt',
 
 })
+
+export default i18n;
